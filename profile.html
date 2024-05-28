@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav>
+            <img src="media/logo.png" id="logo">
+            <ul>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>            
+            </ul>
+        </nav>
+
+    </header>
+
+    <header class="header" id="header-image">
+        <h2>Your Profile</h2>
+    </header>
+
+    <div class="profile-container">
+        <div class="profile-image" id="profile-image">
+            <img src="media/default-pfp.png" alt="Profile Photo">
+        </div>
+        <div class="profile-details">
+            <h1 id="profile-name"></h1>
+            <p id="profile-email"></p>
+            <p id="profile-sex"></p>
+        </div>
+        <div class="profile-content">
+            <h3>Reason for Support</h3>
+            <p id="profile-reason"></p>
+        </div>
+        <div class="upload-section">
+            <label for="upload-profile-picture">Upload Profile Picture:</label>
+            <input type="file" id="upload-profile-picture" accept="image/*">
+            <br>
+            <label for="upload-header-picture">Upload Header Picture:</label>
+            <input type="file" id="upload-header-picture" accept="image/*">
+            <br>
+            <button class="button" onclick="savePictures()">Save Pictures</button>
+        </div>
+    </div>
+
+    <script src="profile.js"> </script>
+
+</body>
+</html>

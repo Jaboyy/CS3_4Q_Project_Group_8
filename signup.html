@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardians of the Earth</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <header>
+        <img src="media/logo.png" id="logo">
+        <h2>Protect Earth, the roots of our existence.</h2>
+    </header>
+    <main>
+        <section>
+            <form id="signup-form" action="profile.html">
+                <label for="first-name">First Name: <span id="required-msg">* required</span></label>
+                <input type="text" id="first-name" name="first-name" required>
+                <br>
+                <label for="last-name">Last Name: <span id="required-msg">* required</span></label>
+                <input type="text" id="last-name" name="last-name" required>
+                <br>
+                <label>Sex: <span id="required-msg">* required</span></label>
+                <div class="radio-container">
+                    <label for="male"><input type="radio" id="male" name="sex" value="Male" required> Male</label>
+                    <label for="female"><input type="radio" id="female" name="sex" value="Female"> Female</label>
+                    <label for="prefer-not-to-say"><input type="radio" id="prefer-not-to-say" name="sex" value="Prefer Not To Say Gender"> Prefer not to say</label>
+                </div>
+                <br>
+                <label for="email">Email Address: <span id="required-msg">* required</span></label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="password">Password: <span id="required-msg">* required</span></label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <label for="contact-number">Contact Number:</label>
+                <input type="tel" id="contact-number" name="contact-number">
+                <br>
+                <label for="support-reason">Why I support this campaign: <span id="required-msg">* required</span></label>
+                <textarea id="support-reason" name="support-reason" required></textarea>
+                <br>
+                <button type="submit">Join the Fight</button>
+            </form>
+        </section>
+    </main>
+    <script src="signup.js"></script>    
+</body>
+</html>

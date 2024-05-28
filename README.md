@@ -5,3 +5,5 @@ Before you enter the actual content of the site , you are asked to sign up and f
 Once you submit and click the  “Join the Fight” button, you are directed to your very own customizable profile page. You can opt to change your header and profile picture by uploading the images of your choice. The save pictures button below it should be pressed in order to save the uploaded pictures into your profile.
 
 After these steps, you can go on to venture to our campaign page by looking at our project and the projects and other campaigns we are associated with by tapping on the buttons ,”Dashboard” and “Campaigns”, respectively.
+
+In the dashboard page, you can view the different campaigns we support and the list of contacts for inquiries.
